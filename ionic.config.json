@@ -1,0 +1,7 @@
+{
+  "name": "Family Finance",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
