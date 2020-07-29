@@ -1,0 +1,23 @@
+
+#ultimos-lancamentos {
+  position: absolute;
+  width: 117px;
+  height: 18px;
+  left: 16px;
+  top: 16px;
+
+  /* Semibold 12 */
+
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2px;
+
+  /* gray */
+
+  color: #A6AAB4;
+}
