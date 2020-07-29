@@ -1,5 +1,5 @@
 
-#ultimos-lancamentos {
+#last-releases {
   position: absolute;
   width: 117px;
   height: 18px;
@@ -20,4 +20,56 @@
   /* gray */
 
   color: #A6AAB4;
+}
+
+.title {
+  position: absolute;
+height: 20px;
+left: 42px;
+right: 64px;
+bottom: 15px;
+
+/* Regular 14 */
+
+font-family: Sarabun;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.2px;
+
+/* gray */
+
+color: #A6AAB4;
+}
+
+.value {
+  position: absolute;
+width: 81px;
+height: 34px;
+right: 1px;
+top: calc(50% - 34px/2);
+
+/* Semibold 14 */
+
+font-family: Sarabun;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.2px;
+
+/* dark gray */
+
+color: #757F8C;
+
 }
