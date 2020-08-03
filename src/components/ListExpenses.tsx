@@ -10,10 +10,9 @@ export const ListExpenses: React.FC = () => (
     {/*-- List of Text Items --*/}
     <IonList>
          <IonItem>
-        <IonLabel class="title">Super Mario World</IonLabel>
-        <IonLabel class="value">300</IonLabel>
-
-
+        <IonLabel id="title">shopping bouboun</IonLabel>
+        <IonLabel id="value">300</IonLabel>
+        <IonLabel id="author">joao em vendas</IonLabel>
       </IonItem>
     </IonList>
 

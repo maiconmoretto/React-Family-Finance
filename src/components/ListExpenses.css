@@ -1,4 +1,3 @@
-
 #last-releases {
   position: absolute;
   width: 117px;
@@ -19,57 +18,82 @@
 
   /* gray */
 
-  color: #A6AAB4;
+  color: #a6aab4;
 }
 
-.title {
+#title {
   position: absolute;
-height: 20px;
-left: 42px;
-right: 64px;
-bottom: 15px;
+  height: 20px;
+  left: 42px;
+  right: 64px;
+  bottom: 15px;
 
-/* Regular 14 */
+  /* Regular 14 */
 
-font-family: Sarabun;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-/* identical to box height, or 143% */
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
 
-display: flex;
-align-items: flex-end;
-letter-spacing: 0.2px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.2px;
 
-/* gray */
-
-color: #A6AAB4;
+  /* gray */
+  color: #a6aab4;
 }
 
-.value {
+#value {
   position: absolute;
-width: 81px;
-height: 34px;
-right: 1px;
-top: calc(50% - 34px/2);
+  width: 81px;
+  height: 34px;
+  right: 1px;
+  top: calc(50% - 34px / 2);
 
-/* Semibold 14 */
+  /* Semibold 14 */
 
-font-family: Sarabun;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 18px;
-/* or 129% */
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
 
-display: flex;
-align-items: center;
-text-align: right;
-letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.2px;
 
-/* dark gray */
+  /* dark gray */
 
-color: #757F8C;
+  color: #757f8c;
+}
 
+#author {
+  /* André em Compras */
+
+  position: absolute;
+  height: 16px;
+  left: 42px;
+  right: 82px;
+  top: 20px;
+
+  /* Light 10 */
+
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 160% */
+
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.1px;
+
+  /* gray */
+
+  color: #a6aab4;
 }
