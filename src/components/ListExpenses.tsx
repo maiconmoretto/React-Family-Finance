@@ -4,12 +4,12 @@ import { IonList, IonItem, IonLabel, IonInput, IonToggle, IonRadio, IonCheckbox,
 
 export const ListExpenses: React.FC = () => (
   <IonContent>
-    <IonItem>
+    <IonItem lines="none">     
       <div id="last-releases">Ultimos lançamentos</div>
     </IonItem>
     {/*-- List of Text Items --*/}
     <IonList>
-      <IonItem>
+      <IonItem lines="none"  no-lines>
         <img className="img-fluid"
           src={`${process.env.PUBLIC_URL}/assets/icon/gift.png`}
           alt="logo" />
@@ -18,8 +18,7 @@ export const ListExpenses: React.FC = () => (
         <IonLabel id="value">300,00</IonLabel>
         <IonLabel id="author">joao em vendas</IonLabel>
       </IonItem>
-      <br />
-      <IonItem>
+      <IonItem lines="none" >
       <img className="img-fluid"
           src={`${process.env.PUBLIC_URL}/assets/icon/dolar.png`}
           alt="logo" />
@@ -27,8 +26,7 @@ export const ListExpenses: React.FC = () => (
         <IonLabel id="value">150,00</IonLabel>
         <IonLabel id="author">maria em livre</IonLabel>
       </IonItem>
-      <br />
-      <IonItem>
+      <IonItem lines="none">
       <img className="img-fluid"
           src={`${process.env.PUBLIC_URL}/assets/icon/faces.png`}
           alt="logo" />

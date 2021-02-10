@@ -21,7 +21,8 @@
   color: #a6aab4;
 }
 
-#title {
+
+#title-goal {
   position: absolute;
   height: 20px;
   left: 42px;
@@ -45,13 +46,13 @@
   color: #a6aab4;
 }
 
-#value {
+#value-goal {
   position: absolute;
   width: 81px;
   height: 34px;
   right: 1px;
   top: calc(50% - 34px / 2);
-
+  margin-top: -5px;
   /* Semibold 14 */
 
   font-family: Sarabun;
@@ -71,29 +72,7 @@
   color: #757f8c;
 }
 
-#author {
-  /* André em Compras */
 
-  position: absolute;
-  height: 16px;
-  left: 42px;
-  right: 82px;
-  top: 20px;
-
-  /* Light 10 */
-
-  font-family: Sarabun;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 10px;
-  line-height: 16px;
-  /* identical to box height, or 160% */
-
-  display: flex;
-  align-items: flex-end;
-  letter-spacing: 0.1px;
-
-  /* gray */
-
-  color: #a6aab4;
-}
+.img-fluid-goals{
+  margin-top: -13px;
+  }

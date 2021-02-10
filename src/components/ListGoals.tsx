@@ -4,24 +4,33 @@ import { IonList, IonItem, IonLabel, IonInput, IonToggle, IonRadio, IonCheckbox,
 
 export const ListGoals: React.FC = () => (
   <IonContent>
-    <IonItem>
+    <IonItem lines="none">
       <div id="goals">Metas</div>
     </IonItem>
     {/*-- List of Text Items --*/}
     <IonList>
-       <IonItem>
-        <IonLabel id="title">MERCADO</IonLabel>
-        <IonLabel id="value">50%</IonLabel>
+       <IonItem lines="none">
+       <img className="img-fluid-goals"
+          src={`${process.env.PUBLIC_URL}/assets/icon/dolar.png`}
+          alt="logo" />
+        <IonLabel id="title-goal">Mercado</IonLabel>
+        <IonLabel id="value-goal">50%</IonLabel>
       </IonItem>
-      <br/>
-      <IonItem>
-        <IonLabel id="title">TRANSPORTE</IonLabel>
-        <IonLabel id="value">30%</IonLabel>
+
+      <IonItem lines="none">
+      <img className="img-fluid-goals"
+          src={`${process.env.PUBLIC_URL}/assets/icon/cart.png`}
+          alt="logo" />
+        <IonLabel id="title-goal">Transporte</IonLabel>
+        <IonLabel id="value-goal">30%</IonLabel>
       </IonItem>
-      <br/>
-      <IonItem>
-        <IonLabel id="title">ESSENCIAL</IonLabel>
-        <IonLabel id="value">60%</IonLabel>
+
+      <IonItem lines="none">
+      <img className="img-fluid-goals"
+          src={`${process.env.PUBLIC_URL}/assets/icon/dolar.png`}
+          alt="logo" />
+        <IonLabel id="title-goal">Essencial</IonLabel>
+        <IonLabel id="value-goal">60%</IonLabel>
       </IonItem>
       
     </IonList>
