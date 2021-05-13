@@ -1,5 +1,6 @@
   import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
+import AccountBalance from '../components/AccountBalance';
 import ListExpenses from '../components/ListExpenses';
 import ListGoals from '../components/ListGoals';
 
@@ -22,6 +23,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">Home</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <AccountBalance />
         <ListExpenses  />
         <ListGoals  />
       </IonContent>
